@@ -8,7 +8,7 @@ Below are some key notes from the blog post on this project.
 
 ## What is Web Scraping?
 
-It is a technique used by programmers to <ins style = "background-color: RGBA(176, 224, 230, 0.3)">automate</ins> the process of data extraction from websites within a short period of time. We can use web scraping tools to collect unstructured data and store it in a structured format that can be used for further analysis.
+It is a technique used by programmers to automate the process of data extraction from websites within a short period of time. We can use web scraping tools to collect unstructured data and store it in a structured format that can be used for further analysis.
 
 ## How can Web Scraping be Used?
 
