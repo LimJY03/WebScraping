@@ -55,3 +55,52 @@ Allow: /
 More information about `robots.txt` rules at [here](https://developers.google.com/search/docs/advanced/robots/create-robots-txt).
 
 ---
+
+# Overview of Selenium
+
+We need to review some basic information on Selenium. The `HTML` content of the webpages will be parsed and scraped using Selenium. 
+
+Selenium is a **python library** that can scrape data on websites dynamically. It can also be used for web automation & testing. Scraping data from the web is only a small portion of the Selenium library. 
+
+Some of the features of Selenium include:
+
+* Multi-Browser Compatibility
+* Multiple Language Support
+* Handling of Dynamic Web Elements
+* Easy to Identify Web Elements
+* Speed and Performance
+* Open Source and Portable
+
+Learn more about Selenium at [here](https://selenium-python.readthedocs.io/).
+
+Selenium web driver offers a variety of locater functions to locate elements on the web page. For this project, we will be locating data elements using the `XPath` function. `XPath` is a language used for locating data values within `HTML` tags and attributes like `class`, `id`, and `name`.
+
+The syntax for the `XPath` function is shown below.
+
+```txt
+Xpath = //tagname[@Attribute='Value']
+
+//        ➡ Select Current Node
+tagname   ➡ Tagname like div, td, tr
+@         ➡ Selects attribute
+Attribute ➡ Attribute name (class, id, name, etc)
+value     ➡ value of the attribute
+```
+
+Assume that the data we want to extract is as below in `HTML` view:
+
+```html
+<div class='movie'>
+    <a class='drama' href='IMDB.com'> IMDB</a>
+</div>
+```
+
+Our code will be like this in `py`:
+
+```py
+# This will return the HTML with tag div and class movie in a list.
+Xpath = //div[@class='movie']
+
+# This will return all the links with class drama inside the div tag that has a class of movie.
+Xpath = //div[@class='movie']/a[@class='drama']
+```
