@@ -1,6 +1,6 @@
 # WebScraping
 
-This repository contains a collection of web scraping projects along with the the data sets generated.
+This repository contains a collection of web scraping projects along with the data sets generated.
 
 The **00\. Theories** folder contains some theories, code of conducts and many more that are related to Web Scraping.
 
