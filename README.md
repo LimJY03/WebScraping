@@ -18,3 +18,10 @@ This section contains a general summary on all web scraping projects on this rep
 * The code is written with `ipynb` using [Google Colab](https://colab.research.google.com/drive/1BepAnTQLjTfFHE4dRd84Wg9j1t_onEnc?usp=sharing).
 * The generated data set can be found [here](https://github.com/LimJY03/WebScraping/blob/main/01.%20Movie%20Scraping/Top_200_Movies_with_Lifetime_Gross.csv).
 * The project reference can be found at [here](https://pub.towardsai.net/web-scraping-top-movies-with-python-and-selenium-8c2f0c6a1d69).
+
+### Project 02: KDrama Scraping
+
+* The website scraped is [butchixanh](https://butchixanh.com/).
+* The code is written with `ipynb` using [Google Colab](https://colab.research.google.com/drive/1bsTGqjkcSL4J3TJJnDVxGwPUmsQwHFFQ?usp=sharing).
+* The generated data set can be found [here](https://github.com/LimJY03/WebScraping/blob/main/02.%20KDrama%20Scraping/Korean%20Drama.csv).
+* There is no project reference.
